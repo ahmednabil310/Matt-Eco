@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@font-face {
+    font-family: "Segoe UI";
+    src: url("./assets/fonts/SegoeUI-Bold.woff2") format("woff2"),
+        url("./assets/fonts/SegoeUI-Bold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Segoe UI";
+    src: url("./assets/fonts/SegoeUI-Italic.woff2") format("woff2"),
+        url("./assets/fonts/SegoeUI-Italic.woff") format("woff");
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Segoe UI";
+    src: url("./assets/fonts/SegoeUI.woff2") format("woff2"),
+        url("./assets/fonts/SegoeUI.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Segoe UI";
+    src: url("./assets/fonts/SegoeUI-BoldItalic.woff2") format("woff2"),
+        url("./assets/fonts/SegoeUI-BoldItalic.woff") format("woff");
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+.container {
+    padding-left: 35px;
+    padding-right: 35px;
+    max-width: 1610px;
+    margin-inline: auto;
+}
+/* @media (max-width: 1560) {
+    .container {
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+} */
